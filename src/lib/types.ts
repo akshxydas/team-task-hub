@@ -1,9 +1,9 @@
 export const TEAM_MEMBERS = [
-  "Alex Rivera",
-  "Sam Chen",
-  "Jordan Patel",
-  "Morgan Kim",
-  "Taylor Brooks",
+  "Akshay",
+  "MKV",
+  "PKV",
+  "Akash",
+  "Arun",
 ] as const;
 
 export type TeamMember = (typeof TEAM_MEMBERS)[number];
