@@ -11,7 +11,7 @@ const actionLabels: Record<ActivityAction, string> = {
   commented: "added a comment",
   deleted: "deleted the task",
 };
-
+//hu
 export function ActivityLog({ task }: { task: Task }) {
   const [open, setOpen] = useState(false);
   return (
